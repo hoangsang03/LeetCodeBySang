@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f2b7941c-3267-4183-9281-097468c49cd3" name="Changes" comment="Move code from Eclipse to InteliJ">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Top_Interview_Questions/LeetCode13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Top_Interview_Questions/LeetCode14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Top_Interview_Questions/LeetCode34.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Top_Interview_Questions/LeetCode4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Top_Interview_Questions/LeetCode6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Top_Interview_Questions/LeetCode66.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Top_Interview_Questions/LeetCode7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Test_Top_Interview_Questions/TestLeetCode13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Test_Top_Interview_Questions/TestLeetCode14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Test_Top_Interview_Questions/TestLeetCode34.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Test_Top_Interview_Questions/TestLeetCode4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Test_Top_Interview_Questions/TestLeetCode6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Test_Top_Interview_Questions/TestLeetCode66.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Test_Top_Interview_Questions/TestLeetCode7.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2E22W78hfwpXrr9mj53hZax9DcM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/ACER/LeetCode_WorkSpace/LeetCodeBySang/src/test/java",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ACER\LeetCode_WorkSpace\LeetCodeBySang\src\test\java" />
+      <recent name="C:\Users\ACER\LeetCode_WorkSpace\LeetCodeBySang\src\main\java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TestLeetCode4">
+    <configuration name="TestLeetCode4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCodeBySang" />
+      <option name="PACKAGE_NAME" value="Test_Top_Interview_Questions" />
+      <option name="MAIN_CLASS_NAME" value="Test_Top_Interview_Questions.TestLeetCode4" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestLeetCode4.testFindMedianSortedArrays_1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCodeBySang" />
+      <option name="PACKAGE_NAME" value="Test_Top_Interview_Questions" />
+      <option name="MAIN_CLASS_NAME" value="Test_Top_Interview_Questions.TestLeetCode4" />
+      <option name="METHOD_NAME" value="testFindMedianSortedArrays_1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestLeetCode4" />
+        <item itemvalue="JUnit.TestLeetCode4.testFindMedianSortedArrays_1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f2b7941c-3267-4183-9281-097468c49cd3" name="Changes" comment="" />
+      <created>1661779391170</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1661779391170</updated>
+      <workItem from="1661779393312" duration="6101000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Move code from Eclipse to InteliJ" />
+    <option name="LAST_COMMIT_MESSAGE" value="Move code from Eclipse to InteliJ" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/LeetCodeBySang$TestLeetCode4.ic" NAME="TestLeetCode4 Coverage Results" MODIFIED="1661780197702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
