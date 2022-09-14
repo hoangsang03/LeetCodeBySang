@@ -4,31 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2b7941c-3267-4183-9281-097468c49cd3" name="Changes" comment="Move code from Eclipse to InteliJ">
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DataStructure_LeetCode/LeetCode217.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DataStructure_LeetCode/LeetCode53.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Top_Interview_Questions/DemoOfCodilityTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Top_Interview_Questions/LeetCode1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Top_Interview_Questions/LeetCode10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Top_Interview_Questions/LeetCode1290.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Top_Interview_Questions/LeetCode1512.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Top_Interview_Questions/LeetCode771.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Top_Interview_Questions/LeetCode859.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Top_Interview_Questions/MainTestOfNAB.java" afterDir="false" />
+    <list default="true" id="f2b7941c-3267-4183-9281-097468c49cd3" name="Changes" comment="Updating New Solutions for LeetCode's Problems">
       <change afterPath="$PROJECT_DIR$/src/main/java/Top_Interview_Questions/javaForCucCung.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Test_DataStructure_LeetCode/TestLeetCode53.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Test_Top_Interview_Questions/TestForTestNAB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Test_Top_Interview_Questions/TestLeetCode1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Test_Top_Interview_Questions/TestLeetCode10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Test_Top_Interview_Questions/TestLeetCode1290.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Test_Top_Interview_Questions/TestLeetCode1512.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Test_Top_Interview_Questions/TestLeetCode771.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Test_Top_Interview_Questions/TestLeetCode859.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Test_Top_Interview_Questions/TestMainTestOfNAB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Top_Interview_Questions/LeetCode14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Top_Interview_Questions/LeetCode14.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Test_Top_Interview_Questions/TestLeetCode14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test_Top_Interview_Questions/TestLeetCode14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DataStructure_LeetCode/LeetCode53.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DataStructure_LeetCode/LeetCode53.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Test_DataStructure_LeetCode/TestLeetCode53.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test_DataStructure_LeetCode/TestLeetCode53.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +69,7 @@
       <recent name="C:\Users\ACER\LeetCode_WorkSpace\LeetCodeBySang\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestMainTestOfNAB">
+  <component name="RunManager" selected="JUnit.TestLeetCode53.testMaxSubArray_5a">
     <configuration name="TestForTestNAB" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCodeBySang" />
       <extension name="coverage" sample_coverage="false" track_test_folders="true">
@@ -121,9 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestLeetCode53.testMaxSubArray_" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestLeetCode53" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCodeBySang" />
-      <extension name="coverage">
+      <selectedOptions>
+        <option name="coverage.runner" />
+      </selectedOptions>
+      <extension name="coverage" sample_coverage="false" track_test_folders="true">
         <pattern>
           <option name="PATTERN" value="Test_DataStructure_LeetCode.*" />
           <option name="ENABLED" value="true" />
@@ -131,15 +115,18 @@
       </extension>
       <option name="PACKAGE_NAME" value="Test_DataStructure_LeetCode" />
       <option name="MAIN_CLASS_NAME" value="Test_DataStructure_LeetCode.TestLeetCode53" />
-      <option name="METHOD_NAME" value="testMaxSubArray_" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestLeetCode53.testMaxSubArray_1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestLeetCode53.testMaxSubArray_5a" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCodeBySang" />
-      <extension name="coverage">
+      <selectedOptions>
+        <option name="coverage.runner" />
+      </selectedOptions>
+      <extension name="coverage" sample_coverage="false" track_test_folders="true">
         <pattern>
           <option name="PATTERN" value="Test_DataStructure_LeetCode.*" />
           <option name="ENABLED" value="true" />
@@ -147,7 +134,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="Test_DataStructure_LeetCode" />
       <option name="MAIN_CLASS_NAME" value="Test_DataStructure_LeetCode.TestLeetCode53" />
-      <option name="METHOD_NAME" value="testMaxSubArray_1" />
+      <option name="METHOD_NAME" value="testMaxSubArray_5a" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -209,19 +196,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.TestLeetCode53" />
+      <item itemvalue="JUnit.TestLeetCode53.testMaxSubArray_5a" />
       <item itemvalue="JUnit.Test_DataStructure_LeetCode in LeetCodeBySang" />
       <item itemvalue="JUnit.TestForTestNAB" />
-      <item itemvalue="JUnit.TestLeetCode53.testMaxSubArray_" />
-      <item itemvalue="JUnit.TestLeetCode53.testMaxSubArray_1" />
       <item itemvalue="JUnit.TestMainTestOfNAB" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestLeetCode53.testMaxSubArray_5a" />
+        <item itemvalue="JUnit.TestLeetCode53" />
         <item itemvalue="JUnit.TestMainTestOfNAB" />
         <item itemvalue="JUnit.TestForTestNAB" />
         <item itemvalue="JUnit.Test_DataStructure_LeetCode in LeetCodeBySang" />
-        <item itemvalue="JUnit.TestLeetCode53.testMaxSubArray_1" />
-        <item itemvalue="JUnit.TestLeetCode53.testMaxSubArray_" />
       </list>
     </recent_temporary>
   </component>
@@ -256,7 +243,8 @@
       <workItem from="1663056581069" duration="16000" />
       <workItem from="1663093857516" duration="1309000" />
       <workItem from="1663141628451" duration="8157000" />
-      <workItem from="1663157331745" duration="345000" />
+      <workItem from="1663157331745" duration="1273000" />
+      <workItem from="1663159689373" duration="4924000" />
     </task>
     <task id="LOCAL-00001" summary="Move code from Eclipse to InteliJ">
       <created>1661789765515</created>
@@ -265,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661789765515</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Updating New Solutions for LeetCode's Problems">
+      <created>1663157854867</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1663157854867</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,7 +291,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Move code from Eclipse to InteliJ" />
-    <option name="LAST_COMMIT_MESSAGE" value="Move code from Eclipse to InteliJ" />
+    <MESSAGE value="Updating New Solutions for LeetCode's Problems" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updating New Solutions for LeetCode's Problems" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -330,6 +326,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/Test_Top_Interview_Questions/TestMainTestOfNAB.java</url>
           <line>20</line>
           <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DataStructure_LeetCode/LeetCode53.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="38" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/Test_Top_Interview_Questions/TestLeetCode10.java</url>

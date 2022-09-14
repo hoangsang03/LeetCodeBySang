@@ -26,22 +26,47 @@ public class LeetCode53 {
         int sum = nums[0];
         int max = nums[0];
         for (int i = 1; i < nums.length; i++) {
-            while (i < nums.length - 1 && sum <= 0) {
+            // If sum is negative number, assign current element for sum
+            // check if sum greater than max?
+            // then skip. We only calculate value which is positive
+            while (i < nums.length && sum <= 0) {
                 sum = nums[i];
                 if (max < sum) max = sum;
+                // next element
                 i++;
             }
-            // if value smaller than 0 -> sum will be decrease,
-            if (nums[i] < 0) {
+            // At this point, sum is greater than 0 or i = length - 1
+            // if value smaller than 0 -> sum will be decrease
+            if (i == nums.length) {
+                break;
+            } else if (nums[i] < 0) {
                 //we need stop calculate sum and find max at the moment
                 if (max < sum) max = sum;
+                // Calculating summaray then loop again to check if it is greater than 0
                 sum += nums[i];
-                continue;
+            } else {
+                sum += nums[i];
             }
-            sum += nums[i];
+
         }
-        if (max < nums[nums.length - 1]) max = nums[nums.length - 1];
+        // finding maximum of max and final summary result
         if (max < sum) max = sum;
         return max;
+    }
+
+    public int maxSubArrayOfOtherOne(int[] nums)
+    {
+        int let_sum = -999999,curr_sum=0;
+        for (int num : nums) {
+            curr_sum += num;
+            if (let_sum < curr_sum)
+                let_sum = curr_sum;
+            if (curr_sum < 0)
+                curr_sum = 0;
+
+
+        }
+        return let_sum;
+
     }
 }
