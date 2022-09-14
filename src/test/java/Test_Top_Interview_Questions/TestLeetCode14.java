@@ -30,7 +30,7 @@ public class TestLeetCode14 {
     @Test
     public void testLongestCommonPrefix_4() {
         String[] strs = {"flower", "fslow", "falight"};
-        String expected = "";
+        String expected = "f";
         assertEquals(expected,obj.longestCommonPrefix(strs));
     }
     @Test

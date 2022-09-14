@@ -25,8 +25,8 @@ public class LeetCode14 {
         }
 
         // strs has more than one element. Get common prefix of first two strings
-        char[] arrTemp1 = new char[strs[0].length()];
-        char[] arrTemp2 = new char[strs[1].length()];
+        char[] arrTemp1 = strs[0].toCharArray();
+        char[] arrTemp2 = strs[1].toCharArray();
         int smallerLength = Math.min(arrTemp1.length, arrTemp2.length);
         for (int i = 0; i < smallerLength; i++) {
             if (arrTemp1[i] == arrTemp2[i]) {
