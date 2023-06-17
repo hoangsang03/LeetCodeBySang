@@ -1,12 +1,12 @@
 package Test_Top_Interview_Questions;
 
-import Top_Interview_Questions.MainTestOfNAB;
+import Top_Interview_Questions.SpecialTest;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class TestMainTestOfNAB {
-    MainTestOfNAB obj = new MainTestOfNAB();
+public class SpecialTest_Test {
+    SpecialTest obj = new SpecialTest();
 
     @Test
     public void testSolution_1 () {

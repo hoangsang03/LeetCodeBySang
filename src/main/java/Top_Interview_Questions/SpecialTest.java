@@ -6,7 +6,7 @@ import java.util.ArrayList;
 
 // you can write to stdout for debugging purposes, e.g.
 // System.out.println("this is a debug message");
-public class MainTestOfNAB {
+public class SpecialTest {
     public int solution(String S) {
         // write your code in Java SE 8
         char[] operations = S.toCharArray();
