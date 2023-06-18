@@ -58,17 +58,17 @@ public class NABCODETest {
 
         int[][] random2DArray = createRandom2DArray(100, 100, specificValues);
 
-        int[][] A = {{0,0,0,1},{0,1,0,0},{0,0,1,0},{1,0,0,0},{0,0,0,0}};
+//        int[][] A = {{0,0,0,1},{0,1,0,0},{0,0,1,0},{1,0,0,0},{0,0,0,0}};
         int K = 4;
         long startTime = System.nanoTime();
-        int expected = this.obj.solution(K,A);
+//        int expected = this.obj.solution(K,A);
+        int expected = this.obj.solution(K,random2DArray);
         long endTime = System.nanoTime();
         long duration = endTime - startTime;
         System.out.println("duration: " + duration);
         int actual = 8;
 
         assertEquals(expected,actual);
-        // đề nó mất rồi , nhưng như anh kể với em
     }
 
     private int[][] createRandom2DArray(int rows, int cols, List<Integer> specificValues) {

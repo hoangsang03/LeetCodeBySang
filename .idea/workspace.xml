@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2b7941c-3267-4183-9281-097468c49cd3" name="Changes" comment="Updating New Solutions for LeetCode's Problems">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Codility/Lesson2CyclicRotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Codility/NABCODE.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Codility/Lesson2CyclicRotationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Codility/NABCODETest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Test_Top_Interview_Questions/Test2Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Codility/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Codility/Test2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Codility/NABCODETest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Codility/NABCODETest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -241,7 +234,7 @@
       <workItem from="1686994364242" duration="1594000" />
       <workItem from="1687008260088" duration="5583000" />
       <workItem from="1687052107027" duration="11121000" />
-      <workItem from="1687071599307" duration="62000" />
+      <workItem from="1687071599307" duration="1336000" />
     </task>
     <task id="LOCAL-00001" summary="Move code from Eclipse to InteliJ">
       <created>1661789765515</created>
@@ -343,21 +336,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/Codility/NABCODE.java</url>
           <line>12</line>
           <option name="timeStamp" value="59" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Codility/NABCODE.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="60" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Codility/NABCODE.java</url>
-          <line>41</line>
-          <option name="timeStamp" value="61" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Codility/NABCODE.java</url>
-          <line>42</line>
-          <option name="timeStamp" value="62" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/Test_Top_Interview_Questions/TestLeetCode10.java</url>
