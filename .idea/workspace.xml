@@ -5,11 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2b7941c-3267-4183-9281-097468c49cd3" name="Changes" comment="Updating New Solutions for LeetCode's Problems">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Top_Interview_Questions/javaForCucCung.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Codility/Lesson2CyclicRotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Codility/NABCODE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Codility/Lesson2CyclicRotationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Codility/NABCODETest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Test_Top_Interview_Questions/Test2Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DataStructure_LeetCode/LeetCode53.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DataStructure_LeetCode/LeetCode53.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Test_DataStructure_LeetCode/TestLeetCode53.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test_DataStructure_LeetCode/TestLeetCode53.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Codility/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Codility/Test2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +43,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2E22W78hfwpXrr9mj53hZax9DcM" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -51,16 +57,16 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;ToolWindowCoverage.ShowToolbar&quot;: &quot;false&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ACER/Downloads/login-registration-backend-master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ACER/Documents/GitHub/LeetCodeBySang&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.haulmont.jpb.projectionDeclaration&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -68,117 +74,102 @@
       <recent name="C:\Users\ACER\LeetCode_WorkSpace\LeetCodeBySang\src\test\java" />
       <recent name="C:\Users\ACER\LeetCode_WorkSpace\LeetCodeBySang\src\main\java" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Test_Top_Interview_Questions" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestLeetCode53.testMaxSubArray_5a">
-    <configuration name="TestForTestNAB" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCodeBySang" />
-      <extension name="coverage" sample_coverage="false" track_test_folders="true">
-        <pattern>
-          <option name="PATTERN" value="Test_Top_Interview_Questions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-        <pattern>
-          <option name="PATTERN" value="Top_Interview_Questions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-        <pattern>
-          <option name="PATTERN" value="Test_Top_Interview_Questions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-        <pattern>
-          <option name="PATTERN" value="Test_DataStructure_LeetCode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-        <pattern>
-          <option name="PATTERN" value="DataStructure_LeetCode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Test_Top_Interview_Questions" />
-      <option name="MAIN_CLASS_NAME" value="Test_Top_Interview_Questions.TestForTestNAB" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestLeetCode53" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.NABCODETest.testSolution_3">
+    <configuration name="Lesson2CyclicRotationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCodeBySang" />
       <selectedOptions>
         <option name="coverage.runner" />
       </selectedOptions>
       <extension name="coverage" sample_coverage="false" track_test_folders="true">
         <pattern>
-          <option name="PATTERN" value="Test_DataStructure_LeetCode.*" />
+          <option name="PATTERN" value="Codility.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Test_DataStructure_LeetCode" />
-      <option name="MAIN_CLASS_NAME" value="Test_DataStructure_LeetCode.TestLeetCode53" />
-      <option name="METHOD_NAME" value="" />
+      <option name="PACKAGE_NAME" value="Codility" />
+      <option name="MAIN_CLASS_NAME" value="Codility.Lesson2CyclicRotationTest" />
+      <option name="METHOD_NAME" value="testSolution_1" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestLeetCode53.testMaxSubArray_5a" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NABCODETest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCodeBySang" />
       <selectedOptions>
         <option name="coverage.runner" />
       </selectedOptions>
       <extension name="coverage" sample_coverage="false" track_test_folders="true">
         <pattern>
-          <option name="PATTERN" value="Test_DataStructure_LeetCode.*" />
+          <option name="PATTERN" value="Codility.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Test_DataStructure_LeetCode" />
-      <option name="MAIN_CLASS_NAME" value="Test_DataStructure_LeetCode.TestLeetCode53" />
-      <option name="METHOD_NAME" value="testMaxSubArray_5a" />
+      <option name="PACKAGE_NAME" value="Codility" />
+      <option name="MAIN_CLASS_NAME" value="Codility.NABCODETest" />
+      <option name="METHOD_NAME" value="testSolution" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NABCODETest.testSolution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCodeBySang" />
+      <selectedOptions>
+        <option name="coverage.runner" />
+      </selectedOptions>
+      <extension name="coverage" sample_coverage="false" track_test_folders="true">
+        <pattern>
+          <option name="PATTERN" value="Codility.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Codility" />
+      <option name="MAIN_CLASS_NAME" value="Codility.NABCODETest" />
+      <option name="METHOD_NAME" value="testSolution" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMainTestOfNAB" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NABCODETest.testSolution_2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCodeBySang" />
+      <selectedOptions>
+        <option name="coverage.runner" />
+      </selectedOptions>
       <extension name="coverage" sample_coverage="false" track_test_folders="true">
         <pattern>
-          <option name="PATTERN" value="Test_Top_Interview_Questions.*" />
+          <option name="PATTERN" value="Codility.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Test_Top_Interview_Questions" />
-      <option name="MAIN_CLASS_NAME" value="Test_Top_Interview_Questions.TestMainTestOfNAB" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="Codility" />
+      <option name="MAIN_CLASS_NAME" value="Codility.NABCODETest" />
+      <option name="METHOD_NAME" value="testSolution_2" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test_DataStructure_LeetCode in LeetCodeBySang" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NABCODETest.testSolution_3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCodeBySang" />
       <selectedOptions>
-        <option name="environmentVariables" visible="false" />
+        <option name="coverage.runner" />
       </selectedOptions>
       <extension name="coverage" sample_coverage="false" track_test_folders="true">
         <pattern>
-          <option name="PATTERN" value="Test_DataStructure_LeetCode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-        <pattern>
-          <option name="PATTERN" value="Top_Interview_Questions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-        <pattern>
-          <option name="PATTERN" value="DataStructure_LeetCode.*" />
+          <option name="PATTERN" value="Codility.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Test_DataStructure_LeetCode" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="PACKAGE_NAME" value="Codility" />
+      <option name="MAIN_CLASS_NAME" value="Codility.NABCODETest" />
+      <option name="METHOD_NAME" value="testSolution_3" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -196,19 +187,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestLeetCode53" />
-      <item itemvalue="JUnit.TestLeetCode53.testMaxSubArray_5a" />
-      <item itemvalue="JUnit.Test_DataStructure_LeetCode in LeetCodeBySang" />
-      <item itemvalue="JUnit.TestForTestNAB" />
-      <item itemvalue="JUnit.TestMainTestOfNAB" />
+      <item itemvalue="JUnit.NABCODETest" />
+      <item itemvalue="JUnit.NABCODETest.testSolution" />
+      <item itemvalue="JUnit.NABCODETest.testSolution_2" />
+      <item itemvalue="JUnit.NABCODETest.testSolution_3" />
+      <item itemvalue="JUnit.Lesson2CyclicRotationTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestLeetCode53.testMaxSubArray_5a" />
-        <item itemvalue="JUnit.TestLeetCode53" />
-        <item itemvalue="JUnit.TestMainTestOfNAB" />
-        <item itemvalue="JUnit.TestForTestNAB" />
-        <item itemvalue="JUnit.Test_DataStructure_LeetCode in LeetCodeBySang" />
+        <item itemvalue="JUnit.NABCODETest.testSolution_3" />
+        <item itemvalue="JUnit.NABCODETest" />
+        <item itemvalue="JUnit.NABCODETest.testSolution" />
+        <item itemvalue="JUnit.NABCODETest.testSolution_2" />
+        <item itemvalue="JUnit.Lesson2CyclicRotationTest" />
       </list>
     </recent_temporary>
   </component>
@@ -245,6 +236,12 @@
       <workItem from="1663141628451" duration="8157000" />
       <workItem from="1663157331745" duration="1273000" />
       <workItem from="1663159689373" duration="4924000" />
+      <workItem from="1686926072270" duration="7502000" />
+      <workItem from="1686967778984" duration="14608000" />
+      <workItem from="1686994364242" duration="1594000" />
+      <workItem from="1687008260088" duration="5583000" />
+      <workItem from="1687052107027" duration="11121000" />
+      <workItem from="1687071599307" duration="62000" />
     </task>
     <task id="LOCAL-00001" summary="Move code from Eclipse to InteliJ">
       <created>1661789765515</created>
@@ -323,7 +320,7 @@
           <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/Test_Top_Interview_Questions/TestMainTestOfNAB.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/Test_Top_Interview_Questions/SpecialTest_Test.java</url>
           <line>20</line>
           <option name="timeStamp" value="37" />
         </line-breakpoint>
@@ -331,6 +328,36 @@
           <url>file://$PROJECT_DIR$/src/main/java/DataStructure_LeetCode/LeetCode53.java</url>
           <line>61</line>
           <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Codility/Test2.java</url>
+          <line>81</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Codility/Lesson2CyclicRotation.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Codility/NABCODE.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Codility/NABCODE.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Codility/NABCODE.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Codility/NABCODE.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="62" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/Test_Top_Interview_Questions/TestLeetCode10.java</url>
