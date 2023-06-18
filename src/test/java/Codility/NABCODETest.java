@@ -17,7 +17,7 @@ public class NABCODETest {
 
     @Test
     public void testSolution() {
-        int[][] A = {{0,0,0,0},{0,0,1,0},{1,0,0,1}}; // đây là mảng 2 chiều, anh mở excel illustate cho
+        int[][] A = {{0,0,0,0},{0,0,1,0},{1,0,0,1}}; 
         int K = 2;
         // đay là test cases anh viết
         int expected = this.obj.solution(K,A);
