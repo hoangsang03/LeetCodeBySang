@@ -1,4 +1,4 @@
-package TopInterView150;
+package TopInterview150;
 
 /**
  * Title: 80. Remove Duplicates from Sorted Array II <br>
@@ -32,8 +32,38 @@ public class LC80_RemoveDuplicatesFromSortedArrayII {
      * @return Return k : <b>first k elements</b> of nums should hold the <b>final result</b>
      */
     public int removeDuplicates(int[] nums) {
-        // hello Nghia 
-    
+        // count number of value that occurs more than 2 times
+        // => dem so luong phan tu ma no duoc lap lai nhieu hon 2 lan trong mang
+        countNumberValueThatOccursMoreThan2Times(nums);
+
+        countNumberRemainingValue(nums);
+
+
+
+        return 0;
+    }
+
+    /**
+     * requirement: count number remaining element after removing duplicates value <br>
+     * <b>trans</b>: dem so luong phan tu con lai, sau khi xoa nhung gia tri lap lai nhieu hon <br>
+     * 2 lan <br>
+     * assignee : NTN
+     * @param nums
+     */
+    private int countNumberRemainingValue(int[] nums) {
+        // int[] nums = {0,0,0,1,1,2,2,3,3,3} => {0,0,1,1,2,2,3,3,*,*}
+        // return 8
+        return 0;
+    }
+
+    /**
+     * requirement: count number of value that occurs more than 2 times <br>
+     * trans:  dem so luong phan tu ma no duoc lap lai nhieu hon 2 lan trong mang
+     * assignee : NTN
+     * @param nums
+     */
+    private int countNumberValueThatOccursMoreThan2Times(int[] nums) {
+        // int[] nums = {0,0,0,1,1,2,2,3,3,3} => return 2
         return 0;
     }
 }
