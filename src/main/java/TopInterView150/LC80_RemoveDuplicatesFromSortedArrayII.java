@@ -32,7 +32,7 @@ public class LC80_RemoveDuplicatesFromSortedArrayII {
      * @return Return k : <b>first k elements</b> of nums should hold the <b>final result</b>
      */
     public int removeDuplicates(int[] nums) {
-
+        // hello Nghia 
         return 0;
     }
 }
