@@ -33,6 +33,7 @@ public class LC80_RemoveDuplicatesFromSortedArrayII {
      */
     public int removeDuplicates(int[] nums) {
         // hello Nghia 
+    
         return 0;
     }
 }
