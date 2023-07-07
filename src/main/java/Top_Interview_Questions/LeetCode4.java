@@ -87,7 +87,7 @@ public class LeetCode4 {
         } else if (nums2Stop == -1) {
             median = nums1[nums1Stop];
         } else {
-            median = nums1[nums1Stop] > nums2[nums2Stop] ? nums1[nums1Stop] : nums2[nums2Stop];
+            median = Math.max(nums1[nums1Stop], nums2[nums2Stop]);
         }
 
         // check (m+n) is even then get more to calculate median
