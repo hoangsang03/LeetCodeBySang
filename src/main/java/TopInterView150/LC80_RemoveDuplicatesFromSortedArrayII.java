@@ -1,5 +1,8 @@
 package TopInterview150;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Title: 80. Remove Duplicates from Sorted Array II <br>
  * Level: Medium <br>
@@ -49,11 +52,22 @@ public class LC80_RemoveDuplicatesFromSortedArrayII {
      * 2 lan <br>
      * assignee : NTN
      * @param nums
+     * EX: int[] nums = {0,0,0,1,1,2,2,3,3,3} => {0,0,1,1,2,2,3,3,*,*}
+     *         return 8
      */
-    private int countNumberRemainingValue(int[] nums) {
-        // int[] nums = {0,0,0,1,1,2,2,3,3,3} => {0,0,1,1,2,2,3,3,*,*}
-        // return 8
-        return 0;
+    public int countNumberRemainingValue(int[] nums) {
+    List<Integer> count = new ArrayList<>();
+        for (int i = 0; i < nums.length; i++){
+            if(!count.contains(nums[i])){
+                if(countNumberValueThatOccursInArrays(nums[i],nums) >= 2){
+                    count.add(nums[i]);
+                    count.add(nums[i]);
+                }else{
+                    count.add(nums[i]);
+                }
+            }
+        }
+        return count.size();
     }
 
     /**
@@ -61,9 +75,32 @@ public class LC80_RemoveDuplicatesFromSortedArrayII {
      * trans:  dem so luong phan tu ma no duoc lap lai nhieu hon 2 lan trong mang
      * assignee : NTN
      * @param nums
+     * EX: int[] nums = {0,0,0,1,1,2,2,3,3,3} => return 2
      */
-    private int countNumberValueThatOccursMoreThan2Times(int[] nums) {
-        // int[] nums = {0,0,0,1,1,2,2,3,3,3} => return 2
-        return 0;
+    public int countNumberValueThatOccursMoreThan2Times(int[] nums) {
+        int result = 0;
+        List<Integer> container = new ArrayList<>();
+        for (int i = 0;i < nums.length; i++) {
+            if(!container.contains(nums[i])) {
+             if(countNumberValueThatOccursInArrays(nums[i],nums) > 2){
+                 result++;
+             }
+             container.add(nums[i]);
+            }
+        }
+        return result;
+    }
+    /**Hàm hỗ trợ countNumberValueThatOccursMoreThan2Times
+    *assignee: NTN
+     * @param nums
+     */
+    public int countNumberValueThatOccursInArrays(int i,int[] nums){
+        int count = 0;
+        for (int j = 0; j < nums.length; j++){
+            if(nums[j] == i){
+                count++;
+            }
+        }
+        return count;
     }
 }
