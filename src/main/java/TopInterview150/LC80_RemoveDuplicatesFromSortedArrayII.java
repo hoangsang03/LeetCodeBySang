@@ -56,18 +56,17 @@ public class LC80_RemoveDuplicatesFromSortedArrayII {
      *         return 8
      */
     public int countNumberRemainingValue(int[] nums) {
-    List<Integer> count = new ArrayList<>();
-        for (int i = 0; i < nums.length; i++){
-            if(!count.contains(nums[i])){
-                if(countNumberValueThatOccursInArrays(nums[i],nums) >= 2){
-                    count.add(nums[i]);
-                    count.add(nums[i]);
-                }else{
-                    count.add(nums[i]);
-                }
+        int count = 0;
+        int IndexValue;
+        for (int i = 0; i < nums.length; i += IndexValue) {
+            IndexValue = count(i, nums[i], nums);
+            if (IndexValue >= 2) {
+                count += 2;
+            } else {
+                count++;
             }
         }
-        return count.size();
+        return count;
     }
 
     /**
@@ -78,27 +77,32 @@ public class LC80_RemoveDuplicatesFromSortedArrayII {
      * EX: int[] nums = {0,0,0,1,1,2,2,3,3,3} => return 2
      */
     public int countNumberValueThatOccursMoreThan2Times(int[] nums) {
-        int result = 0;
-        List<Integer> container = new ArrayList<>();
-        for (int i = 0;i < nums.length; i++) {
-            if(!container.contains(nums[i])) {
-             if(countNumberValueThatOccursInArrays(nums[i],nums) > 2){
-                 result++;
-             }
-             container.add(nums[i]);
+        int count = 0;
+        int IndexValue;
+        for (int i = 0; i < nums.length; i += IndexValue) {
+            IndexValue = count(i, nums[i], nums);
+            if(IndexValue > 2) {
+                count++;
             }
         }
-        return result;
+        return count;
     }
     /**Hàm hỗ trợ countNumberValueThatOccursMoreThan2Times
     *assignee: NTN
      * @param nums
      */
-    public int countNumberValueThatOccursInArrays(int i,int[] nums){
+    public int count(int index, int value, int[] nums) {
         int count = 0;
-        for (int j = 0; j < nums.length; j++){
-            if(nums[j] == i){
+        for (int j = index; j < nums.length; j++) {
+//            if (nums[j] > value) {
+//                break;
+//            } else if (nums[j] == value) {
+//                count++;
+//            }
+            if (nums[j] == value) {
                 count++;
+            } else {
+                break;
             }
         }
         return count;
