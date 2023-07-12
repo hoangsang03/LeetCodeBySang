@@ -13,7 +13,15 @@ public class TestLeetCode1_Nghia {
     @Test
     public void testTwoSum(){
         int[] nums = {3,2,5,6};
-        int[] result = {2,1};
+        int[] result = {1,2};
         assertEquals(Arrays.toString(result),Arrays.toString(obj.twoSum(nums,7)));
     }
+
+    @Test
+    public void testTwoSumHM(){
+        int[] nums = {3,2,5,6};
+        int[] result = {1,2};
+        assertEquals(Arrays.toString(result),Arrays.toString(obj.twoSumHM(nums,7)));
+    }
+
 }

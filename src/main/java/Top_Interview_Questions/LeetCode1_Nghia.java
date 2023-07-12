@@ -1,5 +1,7 @@
 package Top_Interview_Questions;
 
+import java.util.HashMap;
+
 public class LeetCode1_Nghia {
     /**
      * Given an array of integers nums and an integer target, return indices of the
@@ -28,17 +30,27 @@ public class LeetCode1_Nghia {
      * valid answer exists.
      */
     public int[] twoSum(int[] nums, int target) {
-        int[] result = new int[2];
         for (int i = 0; i < nums.length; i++) {
             for (int j = 0; j < nums.length; j++) {
                 if(i != j) {
                     if(nums[i] + nums[j] == target) {
-                        result[0] = i;
-                        result[1] = j;
+                        return new int[] {i,j};
                     }
                 }
             }
         }
-        return result;
+        return null;
+    }
+    //Y tuong su dung hashMap()
+    public int[] twoSumHM(int[] nums, int target) {
+        HashMap<Integer, Integer> container = new HashMap<>();
+        for (int i = 0; i < nums.length; i++) {
+            if(container.containsKey(target - nums[i])) {
+                return new int[] {container.get(target - nums[i]),i};
+            }else {
+                container.put(nums[i], i);
+            }
+        }
+        return null;
     }
 }
