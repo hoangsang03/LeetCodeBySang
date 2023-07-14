@@ -1,6 +1,7 @@
 package TopInterview150;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -35,15 +36,29 @@ public class LC80_RemoveDuplicatesFromSortedArrayII {
      * @return Return k : <b>first k elements</b> of nums should hold the <b>final result</b>
      */
     public int removeDuplicates(int[] nums) {
-        // count number of value that occurs more than 2 times
-        // => dem so luong phan tu ma no duoc lap lai nhieu hon 2 lan trong mang
-        countNumberValueThatOccursMoreThan2Times(nums);
-
-        countNumberRemainingValue(nums);
-
-
-
-        return 0;
+        int count = 0;
+        List<Integer> container = new ArrayList<>();
+        int indexValue;
+        for (int i = 0; i < nums.length; i += indexValue) {
+            indexValue = count(i, nums[i], nums);
+            if (indexValue >= 2) {
+                container.add(nums[i]);
+                container.add(nums[i]);
+                count += 2;
+            } else {
+                container.add(nums[i]);
+                count++;
+            }
+        }
+        for (int i = 0; i < nums.length; i++) {
+            if (i < container.size()) {
+                nums[i] = container.get(i);
+            } else {
+                nums[i] = 999;
+            }
+        }
+        System.out.println("Arrays after change: " + Arrays.toString(nums));
+        return count;
     }
 
     /**

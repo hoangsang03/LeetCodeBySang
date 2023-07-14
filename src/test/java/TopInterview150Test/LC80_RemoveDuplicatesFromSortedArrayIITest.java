@@ -38,6 +38,14 @@ public class LC80_RemoveDuplicatesFromSortedArrayIITest {
         // nums = {a0,a1,a2 ... an}
     }
     /**
+     * Test method removeDuplicates
+     */
+    @Test
+    public void testremoveDuplicates() {
+        int[] nums = {0,0,0,1,1,2,2,3,3,3};
+        assertEquals(obj.removeDuplicates(nums),8);
+    }
+    /**
      * Test method countNumberRemainingValue
      */
     @Test
