@@ -23,6 +23,6 @@ public class LeetCode70_NTN {
      * @author : NTN
      */
     public int climbStairs(int n) {
-    return (n -1) + (n-2) ;
+    return 0;
     }
 }

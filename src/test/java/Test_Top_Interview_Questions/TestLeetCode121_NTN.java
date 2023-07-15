@@ -12,4 +12,10 @@ public class TestLeetCode121_NTN extends TestCase {
         assertEquals(obj.maxProfit(profit), 4);
         System.out.println(obj.big0);
     }
+    @Test
+    public void testMaxProfit1() {
+        int[] profit = {7,6,5,4,3,2};
+        assertEquals(obj.maxProfit(profit), 0);
+        System.out.println(obj.big0);
+    }
 }

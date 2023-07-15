@@ -22,20 +22,19 @@ public class LeetCode121_NTN {
     public int maxProfit(int[] prices) {
         int result = 0;
         int maxvalue;
-        for (int i = 0; i < prices.length - 1; i++) {
+        for (int i = 0; i < prices.length - 1; i++) {  //prices = [7,1,5,3,6,4]
             big0++;
-            maxvalue = MaxValue(i + 1, prices);
-            if(maxvalue - prices[i] > 0 && maxvalue - prices[i] > result) {
+            maxvalue = MaxValue(i +1 , prices);
+            if(maxvalue - prices[i] > result) {
                 result = maxvalue - prices[i];
             }
         }
-
         return result;
     }
     // Hàm hỗ trợ tìm số lớn nhất của mảng
     public int MaxValue(int index,int[] prices) {
         int result = prices[index];
-        for (int i = index +1 ; i < prices.length; i++) {
+        for (int i = index + 1 ; i < prices.length; i++) {
             big0++;
             if(prices[i] > result ) {
                 result = prices[i];
