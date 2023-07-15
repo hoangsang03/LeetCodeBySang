@@ -4,12 +4,17 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+
 /**
+ * {@code @Author:} hoangsang03 <br>
  * Title: 80. Remove Duplicates from Sorted Array II <br>
- * Level: Medium <br>
- * Link: <a href="https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/?envType=study-plan-v2&envId=top-interview-150">...</a>
+ * Level: <b>Medium</b> <br>
+ * Link: <a href="https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/?envType=study-plan-v2&envId=top-interview-150">LeetCode80</a>
+ * <br>Doc: <a href="https://www.geeksforgeeks.org/arrays-in-java/">arrays-in-java</a>
  */
 public class LC80_RemoveDuplicatesFromSortedArrayII {
+    public int bigO = 0;
+
     /**
      * Given an integer array nums sorted in <b>non-decreasing order</b>,
      * remove some duplicates in-place such that
@@ -32,94 +37,12 @@ public class LC80_RemoveDuplicatesFromSortedArrayII {
      * -10^4 <= nums[i] <= 10^4 <br>
      * nums is sorted in <b>non-decreasing order</b>. <br>
      *
-     * @param nums
+     * @param nums :
      * @return Return k : <b>first k elements</b> of nums should hold the <b>final result</b>
      */
     public int removeDuplicates(int[] nums) {
-        int count = 0;
-        List<Integer> container = new ArrayList<>();
-        int indexValue;
-        for (int i = 0; i < nums.length; i += indexValue) {
-            indexValue = count(i, nums[i], nums);
-            if (indexValue >= 2) {
-                container.add(nums[i]);
-                container.add(nums[i]);
-                count += 2;
-            } else {
-                container.add(nums[i]);
-                count++;
-            }
-        }
-        for (int i = 0; i < nums.length; i++) {
-            if (i < container.size()) {
-                nums[i] = container.get(i);
-            } else {
-                nums[i] = 999;
-            }
-        }
-        System.out.println("Arrays after change: " + Arrays.toString(nums));
-        return count;
+
+        return 0;
     }
 
-    /**
-     * requirement: count number remaining element after removing duplicates value <br>
-     * <b>trans</b>: dem so luong phan tu con lai, sau khi xoa nhung gia tri lap lai nhieu hon <br>
-     * 2 lan <br>
-     * assignee : NTN
-     * @param nums
-     * EX: int[] nums = {0,0,0,1,1,2,2,3,3,3} => {0,0,1,1,2,2,3,3,*,*}
-     *         return 8
-     */
-    public int countNumberRemainingValue(int[] nums) {
-        int count = 0;
-        int IndexValue;
-        for (int i = 0; i < nums.length; i += IndexValue) {
-            IndexValue = count(i, nums[i], nums);
-            if (IndexValue >= 2) {
-                count += 2;
-            } else {
-                count++;
-            }
-        }
-        return count;
-    }
-
-    /**
-     * requirement: count number of value that occurs more than 2 times <br>
-     * trans:  dem so luong phan tu ma no duoc lap lai nhieu hon 2 lan trong mang
-     * assignee : NTN
-     * @param nums
-     * EX: int[] nums = {0,0,0,1,1,2,2,3,3,3} => return 2
-     */
-    public int countNumberValueThatOccursMoreThan2Times(int[] nums) {
-        int count = 0;
-        int IndexValue;
-        for (int i = 0; i < nums.length; i += IndexValue) {
-            IndexValue = count(i, nums[i], nums);
-            if(IndexValue > 2) {
-                count++;
-            }
-        }
-        return count;
-    }
-    /**Hàm hỗ trợ countNumberValueThatOccursMoreThan2Times
-    *assignee: NTN
-     * @param nums
-     */
-    public int count(int index, int value, int[] nums) {
-        int count = 0;
-        for (int j = index; j < nums.length; j++) {
-//            if (nums[j] > value) {
-//                break;
-//            } else if (nums[j] == value) {
-//                count++;
-//            }
-            if (nums[j] == value) {
-                count++;
-            } else {
-                break;
-            }
-        }
-        return count;
-    }
 }

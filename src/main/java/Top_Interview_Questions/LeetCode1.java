@@ -2,10 +2,11 @@ package Top_Interview_Questions;
 
 import java.util.HashMap;
 
-/*
- * Titile: 1. Two Sum
- * Difficulty: Easy
- * Link: 1. Two Sum
+/**
+ * <br> Titile: 1. Two Sum
+ * <br> Difficulty: Easy
+ * <br> Link: 1. Two Sum
+ * <br> Doc : <a href="https://www.geeksforgeeks.org/java-util-hashmap-in-java-with-examples/">java-util-hashmap-in-java-with-examples</a>
  */
 public class LeetCode1 {
     /*
@@ -15,9 +16,9 @@ public class LeetCode1 {
      *You can return the answer in any order.
      *
      * Constraints:
-     *2 <= nums.length <= 104
-     *-10^9 <= nums[i] <= 109
-     *-10^9 <= target <= 109
+     *2 <= nums.length <= 10^4
+     *-10^9 <= nums[i] <= 10^9
+     *-10^9 <= target <= 10^9
      *Only one valid answer exists.
      */
     public int[] twoSum(int[] nums, int target) {
