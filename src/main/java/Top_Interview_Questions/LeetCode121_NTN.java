@@ -1,6 +1,6 @@
 package Top_Interview_Questions;
 
-public class LeetCode121_Nghia {
+public class LeetCode121_NTN {
    public int big0;
     /**
      * You are given an array prices where prices[i] is the price of a given stock

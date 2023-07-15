@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-public class LeetCode3_Nghia {
+public class LeetCode3_NTN {
     /**
      * 3. Longest Substring Without Repeating Characters Medium Companies Given a
      * string s, find the length of the longest substring without repeating

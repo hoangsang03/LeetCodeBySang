@@ -2,7 +2,7 @@ package Top_Interview_Questions;
 
 import java.util.HashMap;
 
-public class LeetCode1_Nghia {
+public class LeetCode1_NTN {
     /**
      * Given an array of integers nums and an integer target, return indices of the
      * two numbers such that they add up to target.
