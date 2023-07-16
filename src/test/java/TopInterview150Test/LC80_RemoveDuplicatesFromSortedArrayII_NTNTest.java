@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 /**
  * @author : hoang sang
  */
-public class LC80_RemoveDuplicatesFromSortedArrayIITest {
+public class LC80_RemoveDuplicatesFromSortedArrayII_NTNTest {
     LC80_RemoveDuplicatesFromSortedArrayII_NTN obj = new LC80_RemoveDuplicatesFromSortedArrayII_NTN();
 
     /**

@@ -9,6 +9,8 @@ public class TestLeetCode3_NTN extends TestCase {
 
     @Test
     public void testlengthOfLongestSubstring() {
-        assertEquals(obj.lengthOfLongestSubstring("dvdf"), 2);
+        int actual = obj.lengthOfLongestSubstring("dvdf"); // 2
+        int expected = 3;
+        assertEquals(3,actual );
     }
 }

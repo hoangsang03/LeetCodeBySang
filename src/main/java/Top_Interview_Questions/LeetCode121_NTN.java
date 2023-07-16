@@ -1,7 +1,7 @@
 package Top_Interview_Questions;
 
 public class LeetCode121_NTN {
-   public int big0;
+   public int BigO;
     /**
      * You are given an array prices where prices[i] is the price of a given stock
      * on the ith day. You want to maximize your profit by choosing a single day to
@@ -23,7 +23,7 @@ public class LeetCode121_NTN {
         int result = 0;
         int maxvalue;
         for (int i = 0; i < prices.length - 1; i++) {  //prices = [7,1,5,3,6,4]
-            big0++;
+            BigO++;
             maxvalue = MaxValue(i +1 , prices);
             if(maxvalue - prices[i] > result) {
                 result = maxvalue - prices[i];
@@ -35,7 +35,7 @@ public class LeetCode121_NTN {
     public int MaxValue(int index,int[] prices) {
         int result = prices[index];
         for (int i = index + 1 ; i < prices.length; i++) {
-            big0++;
+            BigO++;
             if(prices[i] > result ) {
                 result = prices[i];
             }

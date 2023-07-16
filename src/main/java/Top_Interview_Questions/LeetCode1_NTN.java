@@ -39,6 +39,7 @@ public class LeetCode1_NTN {
                 }
             }
         }
+
         return null;
     }
     //Y tuong su dung hashMap()

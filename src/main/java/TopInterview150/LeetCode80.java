@@ -1,10 +1,5 @@
 package TopInterview150;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
-
 /**
  * {@code @Author:} hoangsang03 <br>
  * Title: 80. Remove Duplicates from Sorted Array II <br>
@@ -12,7 +7,7 @@ import java.util.List;
  * Link: <a href="https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/?envType=study-plan-v2&envId=top-interview-150">LeetCode80</a>
  * <br>Doc: <a href="https://www.geeksforgeeks.org/arrays-in-java/">arrays-in-java</a>
  */
-public class LC80_RemoveDuplicatesFromSortedArrayII {
+public class LeetCode80 {
     public int bigO = 0;
 
     /**
@@ -37,12 +32,38 @@ public class LC80_RemoveDuplicatesFromSortedArrayII {
      * -10^4 <= nums[i] <= 10^4 <br>
      * nums is sorted in <b>non-decreasing order</b>. <br>
      *
-     * @param nums :
+     * @param nums : non-decreasing array
      * @return Return k : <b>first k elements</b> of nums should hold the <b>final result</b>
      */
     public int removeDuplicates(int[] nums) {
 
-        return 0;
+        //{0,0,0,1,1,2,2,3,3,3}
+        //{0,0,1,1,2,2,3,3,3,3}
+        int numberAppearances;
+        int k = -1;
+        for (int i = 0; i < nums.length; i += numberAppearances) {
+            numberAppearances = countNumberValueThatOccursInArrays(i, nums[i], nums);
+            k++;
+            nums[k] = nums[i];
+            if (numberAppearances >= 2) {
+                k++;
+                nums[k] = nums[i];
+            }
+        }
+        return k;
+    }
+
+    public int countNumberValueThatOccursInArrays(int iStart, int value, int[] nums) {
+        int count = 1;
+        for (int j = iStart + 1; j < nums.length; j++) {
+            bigO++;
+            if (nums[j] == value) {
+                count++;
+            } else {
+                break;
+            }
+        }
+        return count;
     }
 
 }
