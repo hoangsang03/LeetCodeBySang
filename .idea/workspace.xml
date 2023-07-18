@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2b7941c-3267-4183-9281-097468c49cd3" name="Changes" comment="Updating New Solutions for LeetCode's Problems">
+      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode3_NTN/LeetCode3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestLeetCode3_NTN/Test_LeetCode3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Codility/NABCODETest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Codility/NABCODETest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,26 +73,7 @@
       <recent name="Test_Top_Interview_Questions" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.NABCODETest.testSolution_3">
-    <configuration name="Lesson2CyclicRotationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCodeBySang" />
-      <selectedOptions>
-        <option name="coverage.runner" />
-      </selectedOptions>
-      <extension name="coverage" sample_coverage="false" track_test_folders="true">
-        <pattern>
-          <option name="PATTERN" value="Codility.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Codility" />
-      <option name="MAIN_CLASS_NAME" value="Codility.Lesson2CyclicRotationTest" />
-      <option name="METHOD_NAME" value="testSolution_1" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Test_LeetCode3.testlengthOfLongestSubstring1">
     <configuration name="NABCODETest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCodeBySang" />
       <selectedOptions>
@@ -106,44 +89,6 @@
       <option name="MAIN_CLASS_NAME" value="Codility.NABCODETest" />
       <option name="METHOD_NAME" value="testSolution" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NABCODETest.testSolution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCodeBySang" />
-      <selectedOptions>
-        <option name="coverage.runner" />
-      </selectedOptions>
-      <extension name="coverage" sample_coverage="false" track_test_folders="true">
-        <pattern>
-          <option name="PATTERN" value="Codility.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Codility" />
-      <option name="MAIN_CLASS_NAME" value="Codility.NABCODETest" />
-      <option name="METHOD_NAME" value="testSolution" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NABCODETest.testSolution_2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCodeBySang" />
-      <selectedOptions>
-        <option name="coverage.runner" />
-      </selectedOptions>
-      <extension name="coverage" sample_coverage="false" track_test_folders="true">
-        <pattern>
-          <option name="PATTERN" value="Codility.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Codility" />
-      <option name="MAIN_CLASS_NAME" value="Codility.NABCODETest" />
-      <option name="METHOD_NAME" value="testSolution_2" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -167,6 +112,63 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test_LeetCode3.testlengthOfLongestSubstring" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCodeBySang" />
+      <selectedOptions>
+        <option name="coverage.runner" />
+      </selectedOptions>
+      <extension name="coverage" sample_coverage="false" track_test_folders="true">
+        <pattern>
+          <option name="PATTERN" value="TestLeetCode3_NTN.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestLeetCode3_NTN" />
+      <option name="MAIN_CLASS_NAME" value="TestLeetCode3_NTN.Test_LeetCode3" />
+      <option name="METHOD_NAME" value="testlengthOfLongestSubstring" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test_LeetCode3.testlengthOfLongestSubstring1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCodeBySang" />
+      <selectedOptions>
+        <option name="coverage.runner" />
+      </selectedOptions>
+      <extension name="coverage" sample_coverage="false" track_test_folders="true">
+        <pattern>
+          <option name="PATTERN" value="TestLeetCode3_NTN.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestLeetCode3_NTN" />
+      <option name="MAIN_CLASS_NAME" value="TestLeetCode3_NTN.Test_LeetCode3" />
+      <option name="METHOD_NAME" value="testlengthOfLongestSubstring1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test_LeetCode3.testlengthOfLongestSubstring2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCodeBySang" />
+      <selectedOptions>
+        <option name="coverage.runner" />
+      </selectedOptions>
+      <extension name="coverage" sample_coverage="false" track_test_folders="true">
+        <pattern>
+          <option name="PATTERN" value="TestLeetCode3_NTN.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestLeetCode3_NTN" />
+      <option name="MAIN_CLASS_NAME" value="TestLeetCode3_NTN.Test_LeetCode3" />
+      <option name="METHOD_NAME" value="testlengthOfLongestSubstring2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <module name="LeetCodeBySang" />
       <selectedOptions>
@@ -180,19 +182,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.Test_LeetCode3.testlengthOfLongestSubstring" />
+      <item itemvalue="JUnit.Test_LeetCode3.testlengthOfLongestSubstring1" />
+      <item itemvalue="JUnit.Test_LeetCode3.testlengthOfLongestSubstring2" />
       <item itemvalue="JUnit.NABCODETest" />
-      <item itemvalue="JUnit.NABCODETest.testSolution" />
-      <item itemvalue="JUnit.NABCODETest.testSolution_2" />
       <item itemvalue="JUnit.NABCODETest.testSolution_3" />
-      <item itemvalue="JUnit.Lesson2CyclicRotationTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Test_LeetCode3.testlengthOfLongestSubstring1" />
+        <item itemvalue="JUnit.Test_LeetCode3.testlengthOfLongestSubstring2" />
+        <item itemvalue="JUnit.Test_LeetCode3.testlengthOfLongestSubstring" />
         <item itemvalue="JUnit.NABCODETest.testSolution_3" />
         <item itemvalue="JUnit.NABCODETest" />
-        <item itemvalue="JUnit.NABCODETest.testSolution" />
-        <item itemvalue="JUnit.NABCODETest.testSolution_2" />
-        <item itemvalue="JUnit.Lesson2CyclicRotationTest" />
       </list>
     </recent_temporary>
   </component>
@@ -354,21 +356,10 @@
     <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/LeetCodeBySang$TestForTestNAB.ic" NAME="TestForTestNAB Coverage Results" MODIFIED="1663148607694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
-      <FILTER>Test_Top_Interview_Questions.*</FILTER>
-      <FILTER>Top_Interview_Questions.*</FILTER>
-      <FILTER>Test_Top_Interview_Questions.*</FILTER>
-      <FILTER>Test_DataStructure_LeetCode.*</FILTER>
-      <FILTER>DataStructure_LeetCode.*</FILTER>
+    <SUITE FILE_PATH="coverage/LeetCodeBySang$NABCODETest_testSolution_4.ic" NAME="NABCODETest.testSolution_4 Coverage Results" MODIFIED="1687078869179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>Codility.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/LeetCodeBySang$TestLeetCode14.ic" NAME="TestLeetCode14 Coverage Results" MODIFIED="1661794641945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>Test_Top_Interview_Questions.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/LeetCodeBySang$TestLeetCode4.ic" NAME="TestLeetCode4 Coverage Results" MODIFIED="1661780197702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/LeetCodeBySang$TestLeetCode10_testIsMatch_12.ic" NAME="TestLeetCode10.testIsMatch_12 Coverage Results" MODIFIED="1661850739179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>Test_Top_Interview_Questions.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/LeetCodeBySang$TestMainTestOfNAB.ic" NAME="TestMainTestOfNAB Coverage Results" MODIFIED="1663149323155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
       <FILTER>Test_Top_Interview_Questions.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/LeetCodeBySang$TestLeetCode10.ic" NAME="TestLeetCode10 Coverage Results" MODIFIED="1662543901619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -377,10 +368,24 @@
     <SUITE FILE_PATH="coverage/LeetCodeBySang$TestLeetCode14_testLongestCommonPrefix_1.ic" NAME="TestLeetCode14.testLongestCommonPrefix_1 Coverage Results" MODIFIED="1661790493873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Test_Top_Interview_Questions.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/LeetCodeBySang$TestLeetCode10_testIsMatch_12.ic" NAME="TestLeetCode10.testIsMatch_12 Coverage Results" MODIFIED="1661850739179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Test_Top_Interview_Questions.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/LeetCodeBySang$TestLeetCode4.ic" NAME="TestLeetCode4 Coverage Results" MODIFIED="1661780197702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/LeetCodeBySang$TestForTestNAB.ic" NAME="TestForTestNAB Coverage Results" MODIFIED="1663148607694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>Test_Top_Interview_Questions.*</FILTER>
+      <FILTER>Top_Interview_Questions.*</FILTER>
+      <FILTER>Test_Top_Interview_Questions.*</FILTER>
+      <FILTER>Test_DataStructure_LeetCode.*</FILTER>
+      <FILTER>DataStructure_LeetCode.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/LeetCodeBySang$TestLeetCode53.ic" NAME="TestLeetCode53 Coverage Results" MODIFIED="1663147081633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
       <FILTER>Test_DataStructure_LeetCode.*</FILTER>
       <FILTER>Top_Interview_Questions.*</FILTER>
       <FILTER>DataStructure_LeetCode.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/LeetCodeBySang$TestMainTestOfNAB.ic" NAME="TestMainTestOfNAB Coverage Results" MODIFIED="1663149323155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>Test_Top_Interview_Questions.*</FILTER>
     </SUITE>
   </component>
 </project>
