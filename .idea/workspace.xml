@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2b7941c-3267-4183-9281-097468c49cd3" name="Changes" comment="Updating New Solutions for LeetCode's Problems">
+    <list default="true" id="f2b7941c-3267-4183-9281-097468c49cd3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode70_NTN/LeetCode70.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Codility/NABCODETest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Codility/NABCODETest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -354,21 +355,10 @@
     <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/LeetCodeBySang$TestForTestNAB.ic" NAME="TestForTestNAB Coverage Results" MODIFIED="1663148607694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
-      <FILTER>Test_Top_Interview_Questions.*</FILTER>
-      <FILTER>Top_Interview_Questions.*</FILTER>
-      <FILTER>Test_Top_Interview_Questions.*</FILTER>
-      <FILTER>Test_DataStructure_LeetCode.*</FILTER>
-      <FILTER>DataStructure_LeetCode.*</FILTER>
+    <SUITE FILE_PATH="coverage/LeetCodeBySang$NABCODETest_testSolution_4.ic" NAME="NABCODETest.testSolution_4 Coverage Results" MODIFIED="1687078869179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>Codility.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/LeetCodeBySang$TestLeetCode14.ic" NAME="TestLeetCode14 Coverage Results" MODIFIED="1661794641945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>Test_Top_Interview_Questions.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/LeetCodeBySang$TestLeetCode4.ic" NAME="TestLeetCode4 Coverage Results" MODIFIED="1661780197702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/LeetCodeBySang$TestLeetCode10_testIsMatch_12.ic" NAME="TestLeetCode10.testIsMatch_12 Coverage Results" MODIFIED="1661850739179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>Test_Top_Interview_Questions.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/LeetCodeBySang$TestMainTestOfNAB.ic" NAME="TestMainTestOfNAB Coverage Results" MODIFIED="1663149323155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
       <FILTER>Test_Top_Interview_Questions.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/LeetCodeBySang$TestLeetCode10.ic" NAME="TestLeetCode10 Coverage Results" MODIFIED="1662543901619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -377,10 +367,24 @@
     <SUITE FILE_PATH="coverage/LeetCodeBySang$TestLeetCode14_testLongestCommonPrefix_1.ic" NAME="TestLeetCode14.testLongestCommonPrefix_1 Coverage Results" MODIFIED="1661790493873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Test_Top_Interview_Questions.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/LeetCodeBySang$TestLeetCode10_testIsMatch_12.ic" NAME="TestLeetCode10.testIsMatch_12 Coverage Results" MODIFIED="1661850739179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Test_Top_Interview_Questions.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/LeetCodeBySang$TestLeetCode4.ic" NAME="TestLeetCode4 Coverage Results" MODIFIED="1661780197702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/LeetCodeBySang$TestForTestNAB.ic" NAME="TestForTestNAB Coverage Results" MODIFIED="1663148607694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>Test_Top_Interview_Questions.*</FILTER>
+      <FILTER>Top_Interview_Questions.*</FILTER>
+      <FILTER>Test_Top_Interview_Questions.*</FILTER>
+      <FILTER>Test_DataStructure_LeetCode.*</FILTER>
+      <FILTER>DataStructure_LeetCode.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/LeetCodeBySang$TestLeetCode53.ic" NAME="TestLeetCode53 Coverage Results" MODIFIED="1663147081633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
       <FILTER>Test_DataStructure_LeetCode.*</FILTER>
       <FILTER>Top_Interview_Questions.*</FILTER>
       <FILTER>DataStructure_LeetCode.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/LeetCodeBySang$TestMainTestOfNAB.ic" NAME="TestMainTestOfNAB Coverage Results" MODIFIED="1663149323155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>Test_Top_Interview_Questions.*</FILTER>
     </SUITE>
   </component>
 </project>
