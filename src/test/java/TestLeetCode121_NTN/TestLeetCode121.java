@@ -8,18 +8,20 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class TestLeetCode121 {
     LeetCode121 obj = new LeetCode121();
 
-    @Test
+
+        @Test
     public void testMaxProfit() {
-        int[] prices = {3,10,2,5,3,2,7,3,10,2,5,3,2,7,3,10,2,5,3,2,7,3,10,2,5,3,2,7}; // n(n+1)/2 , n = prices.length - 1
+        int[] prices = {3,10,2,5,3}; // n(n+1)/2 , n = prices.length - 1
         // 27*28/2
         int actual = obj.maxProfit(prices);
-        int expected = 8;
+        int expected = 7;
 
         System.out.println("size: " + prices.length);
         System.out.println("Big: " + obj.BigO);
         assertEquals(expected, actual);
 
     }
+
     @Test
     public void testMaxProfit_2() {
         int[] prices = {3,10,2,5,3,2,7,3,10,2,5,3,2,7,3,10,2,5,3,2,7,3,10,2,5,3,2,7};

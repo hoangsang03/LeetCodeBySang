@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2b7941c-3267-4183-9281-097468c49cd3" name="Changes" comment="Updating New Solutions for LeetCode's Problems">
-      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode121_NTN/LeetCode121.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestLeetCode121_NTN/TestLeetCode121.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LeetCode121_NTN/LeetCode121.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode121_NTN/LeetCode121.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestLeetCode121_NTN/TestLeetCode121.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestLeetCode121_NTN/TestLeetCode121.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +72,7 @@
       <recent name="Test_Top_Interview_Questions" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestLeetCode121.testMaxProfit">
+  <component name="RunManager" selected="JUnit.TestLeetCode121.testMaxProfit1">
     <configuration name="NABCODETest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCodeBySang" />
       <selectedOptions>
@@ -89,44 +88,6 @@
       <option name="MAIN_CLASS_NAME" value="Codility.NABCODETest" />
       <option name="METHOD_NAME" value="testSolution" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NABCODETest.testSolution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCodeBySang" />
-      <selectedOptions>
-        <option name="coverage.runner" />
-      </selectedOptions>
-      <extension name="coverage" sample_coverage="false" track_test_folders="true">
-        <pattern>
-          <option name="PATTERN" value="Codility.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Codility" />
-      <option name="MAIN_CLASS_NAME" value="Codility.NABCODETest" />
-      <option name="METHOD_NAME" value="testSolution" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NABCODETest.testSolution_2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCodeBySang" />
-      <selectedOptions>
-        <option name="coverage.runner" />
-      </selectedOptions>
-      <extension name="coverage" sample_coverage="false" track_test_folders="true">
-        <pattern>
-          <option name="PATTERN" value="Codility.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Codility" />
-      <option name="MAIN_CLASS_NAME" value="Codility.NABCODETest" />
-      <option name="METHOD_NAME" value="testSolution_2" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -169,6 +130,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestLeetCode121.testMaxProfit1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCodeBySang" />
+      <selectedOptions>
+        <option name="coverage.runner" />
+      </selectedOptions>
+      <extension name="coverage" sample_coverage="false" track_test_folders="true">
+        <pattern>
+          <option name="PATTERN" value="TestLeetCode121_NTN.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestLeetCode121_NTN" />
+      <option name="MAIN_CLASS_NAME" value="TestLeetCode121_NTN.TestLeetCode121" />
+      <option name="METHOD_NAME" value="testMaxProfit1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestLeetCode121.testfindMin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCodeBySang" />
+      <selectedOptions>
+        <option name="coverage.runner" />
+      </selectedOptions>
+      <extension name="coverage" sample_coverage="false" track_test_folders="true">
+        <pattern>
+          <option name="PATTERN" value="TestLeetCode121_NTN.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestLeetCode121_NTN" />
+      <option name="MAIN_CLASS_NAME" value="TestLeetCode121_NTN.TestLeetCode121" />
+      <option name="METHOD_NAME" value="testfindMin" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <module name="LeetCodeBySang" />
       <selectedOptions>
@@ -182,19 +181,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.TestLeetCode121.testMaxProfit1" />
+      <item itemvalue="JUnit.TestLeetCode121.testfindMin" />
       <item itemvalue="JUnit.TestLeetCode121.testMaxProfit" />
       <item itemvalue="JUnit.NABCODETest" />
-      <item itemvalue="JUnit.NABCODETest.testSolution" />
-      <item itemvalue="JUnit.NABCODETest.testSolution_2" />
       <item itemvalue="JUnit.NABCODETest.testSolution_3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestLeetCode121.testMaxProfit1" />
         <item itemvalue="JUnit.TestLeetCode121.testMaxProfit" />
+        <item itemvalue="JUnit.TestLeetCode121.testfindMin" />
         <item itemvalue="JUnit.NABCODETest.testSolution_3" />
         <item itemvalue="JUnit.NABCODETest" />
-        <item itemvalue="JUnit.NABCODETest.testSolution" />
-        <item itemvalue="JUnit.NABCODETest.testSolution_2" />
       </list>
     </recent_temporary>
   </component>

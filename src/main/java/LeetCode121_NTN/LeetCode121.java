@@ -1,4 +1,8 @@
 package LeetCode121_NTN;
+
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * Title:
  * <br>Level: Easy
@@ -6,6 +10,7 @@ package LeetCode121_NTN;
  */
 public class LeetCode121 {
     public int BigO;
+    public int big1;
     /**
      * You are given an array prices where prices[i] is the price of a given stock
      * on the ith day. You want to maximize your profit by choosing a single day to
@@ -47,4 +52,5 @@ public class LeetCode121 {
         }
         return result;
     }
+
 }
