@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2b7941c-3267-4183-9281-097468c49cd3" name="Changes" comment="Updating New Solutions for LeetCode's Problems">
-      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode3_NTN/LeetCode3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestLeetCode3_NTN/Test_LeetCode3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LeetCode3_NTN/LeetCode3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode3_NTN/LeetCode3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestLeetCode3_NTN/Test_LeetCode3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestLeetCode3_NTN/Test_LeetCode3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,25 +44,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;ToolWindowCoverage.ShowToolbar&quot;: &quot;false&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ACER/Documents/GitHub/LeetCodeBySang&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.haulmont.jpb.projectionDeclaration&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ToolWindowCoverage.ShowToolbar": "false",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/ACER/Documents/GitHub/LeetCodeBySang",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.17",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "com.haulmont.jpb.projectionDeclaration",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ACER\LeetCode_WorkSpace\LeetCodeBySang\src\test\java" />
@@ -73,45 +73,7 @@
       <recent name="Test_Top_Interview_Questions" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Test_LeetCode3.testlengthOfLongestSubstring1">
-    <configuration name="NABCODETest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCodeBySang" />
-      <selectedOptions>
-        <option name="coverage.runner" />
-      </selectedOptions>
-      <extension name="coverage" sample_coverage="false" track_test_folders="true">
-        <pattern>
-          <option name="PATTERN" value="Codility.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Codility" />
-      <option name="MAIN_CLASS_NAME" value="Codility.NABCODETest" />
-      <option name="METHOD_NAME" value="testSolution" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NABCODETest.testSolution_3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCodeBySang" />
-      <selectedOptions>
-        <option name="coverage.runner" />
-      </selectedOptions>
-      <extension name="coverage" sample_coverage="false" track_test_folders="true">
-        <pattern>
-          <option name="PATTERN" value="Codility.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Codility" />
-      <option name="MAIN_CLASS_NAME" value="Codility.NABCODETest" />
-      <option name="METHOD_NAME" value="testSolution_3" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Test_LeetCode3.testlengthOfLongestSubstring">
     <configuration name="Test_LeetCode3.testlengthOfLongestSubstring" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCodeBySang" />
       <selectedOptions>
@@ -169,6 +131,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test_LeetCode3.testlengthOfLongestSubstring3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCodeBySang" />
+      <selectedOptions>
+        <option name="coverage.runner" />
+      </selectedOptions>
+      <extension name="coverage" sample_coverage="false" track_test_folders="true">
+        <pattern>
+          <option name="PATTERN" value="TestLeetCode3_NTN.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestLeetCode3_NTN" />
+      <option name="MAIN_CLASS_NAME" value="TestLeetCode3_NTN.Test_LeetCode3" />
+      <option name="METHOD_NAME" value="testlengthOfLongestSubstring3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test_LeetCode3.testlengthOfLongestSubstring4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCodeBySang" />
+      <selectedOptions>
+        <option name="coverage.runner" />
+      </selectedOptions>
+      <extension name="coverage" sample_coverage="false" track_test_folders="true">
+        <pattern>
+          <option name="PATTERN" value="TestLeetCode3_NTN.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestLeetCode3_NTN" />
+      <option name="MAIN_CLASS_NAME" value="TestLeetCode3_NTN.Test_LeetCode3" />
+      <option name="METHOD_NAME" value="testlengthOfLongestSubstring4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <module name="LeetCodeBySang" />
       <selectedOptions>
@@ -182,19 +182,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.Test_LeetCode3.testlengthOfLongestSubstring3" />
+      <item itemvalue="JUnit.Test_LeetCode3.testlengthOfLongestSubstring4" />
       <item itemvalue="JUnit.Test_LeetCode3.testlengthOfLongestSubstring" />
       <item itemvalue="JUnit.Test_LeetCode3.testlengthOfLongestSubstring1" />
       <item itemvalue="JUnit.Test_LeetCode3.testlengthOfLongestSubstring2" />
-      <item itemvalue="JUnit.NABCODETest" />
-      <item itemvalue="JUnit.NABCODETest.testSolution_3" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Test_LeetCode3.testlengthOfLongestSubstring1" />
-        <item itemvalue="JUnit.Test_LeetCode3.testlengthOfLongestSubstring2" />
         <item itemvalue="JUnit.Test_LeetCode3.testlengthOfLongestSubstring" />
-        <item itemvalue="JUnit.NABCODETest.testSolution_3" />
-        <item itemvalue="JUnit.NABCODETest" />
+        <item itemvalue="JUnit.Test_LeetCode3.testlengthOfLongestSubstring4" />
+        <item itemvalue="JUnit.Test_LeetCode3.testlengthOfLongestSubstring2" />
+        <item itemvalue="JUnit.Test_LeetCode3.testlengthOfLongestSubstring3" />
+        <item itemvalue="JUnit.Test_LeetCode3.testlengthOfLongestSubstring1" />
       </list>
     </recent_temporary>
   </component>
@@ -237,6 +237,7 @@
       <workItem from="1687008260088" duration="5583000" />
       <workItem from="1687052107027" duration="11121000" />
       <workItem from="1687071599307" duration="1336000" />
+      <workItem from="1689774150439" duration="2484000" />
     </task>
     <task id="LOCAL-00001" summary="Move code from Eclipse to InteliJ">
       <created>1661789765515</created>

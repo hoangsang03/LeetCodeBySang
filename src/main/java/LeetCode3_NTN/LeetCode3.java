@@ -10,6 +10,7 @@ import java.util.List;
  * <br>Link: <a href = "https://leetcode.com/problems/longest-substring-without-repeating-characters/">LeetCode 3</a>
  */
 public class LeetCode3 {
+    public int Big0;
     /**
      * 3. Longest Substring Without Repeating Characters
      * <br>Medium
@@ -46,23 +47,29 @@ public class LeetCode3 {
             if(s.equals(" ")) {
                 return 1;
             }
-            for (int i = 0; i < s.length(); i++) {
-                if(!containerString.contains(s.charAt(i))) {
-                    count++;
-                    containerString.add(s.charAt(i));
-                    if(i == s.length() -1) {
+            for (int i = 0; i < s.length() - 1; i++) {
+                Big0++;
+                for (int j = i; j < s.length(); j++) {
+                    Big0++;
+                    if (!containerString.contains(s.charAt(j))) {
+                        count++;
+                        containerString.add(s.charAt(j));
+                        if (j == s.length() - 1) {
+                            containerCount.add(count);
+                            break;
+                        }
+                    } else {
                         containerCount.add(count);
+                        count = 0;
+                        containerString = new ArrayList<>();
+                        break;
                     }
-                }else {
-                    containerCount.add(count);
-                    count = 1;
-                    containerString = new ArrayList<>();
-                    containerString.add(s.charAt(i));
                 }
             }
             Collections.sort(containerCount, new Comparator<Integer>() {
                 @Override
                 public int compare(Integer o1, Integer o2) {
+
                     return o2 - o1;
                 }
             });
