@@ -6,6 +6,7 @@ package LeetCode70_NTN;
  * <br> Link: <a href = "https://leetcode.com/problems/climbing-stairs/">LeetCode 70</a>
  */
 public class LeetCode70 {
+    public int big0;
     /**
      * You are climbing a staircase. It takes n steps to reach the top.
      * <br>Each time you can either climb 1 or 2 steps. In how many distinct ways can you climb to the top?
@@ -28,6 +29,23 @@ public class LeetCode70 {
      * @author : NTN
      */
     public int climbStairs(int n) {
-        return 0;
+        int count = 3;
+        int n1  = 1;
+        int n2 = 2;
+        if(n == 1) {
+            return n1;
+        }else if(n == 2) {
+            return n2;
+        }else if (n >= 3) {
+            while(count <= n) {
+                big0++;
+                int temp = n2;
+                n2 += n1;
+                n1 = temp;
+                count++;
+            }
+        }
+
+        return n2;
     }
 }
