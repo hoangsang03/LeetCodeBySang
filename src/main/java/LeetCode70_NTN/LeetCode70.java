@@ -48,4 +48,33 @@ public class LeetCode70 {
 
         return n2;
     }
+
+    /**
+     * Su dung De Quy
+     * @param n
+     * @return
+     */
+    public int climbStairsDQ(int n) {
+        int i = 3;
+        int result = 0;
+        int n1 = 1;
+        int n2 = 2;
+        if(n == 1 ){
+            return 1;
+        }else if(n == 2){
+            return 2;
+        }
+        return climbStairsDQHelp(n,n1,n2, i, result);
+    }
+    public int climbStairsDQHelp(int n,int n1, int n2,int i,int result) {
+
+        if(i > n){
+            return result;
+        }else {
+            result = n1 + n2;
+            n1 = n2;
+            n2 = result;
+            return climbStairsDQHelp(n,n1,n2,i += 1,result);
+        }
+    }
 }

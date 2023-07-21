@@ -14,4 +14,11 @@ public class TestLeetCode70 {
         assertEquals(expected,actual);
         System.out.println(obj.big0);
     }
+    @Test
+    public void testClimbStairsDQ(){
+        int actual = obj.climbStairsDQ(6);
+        int expected = 13;
+        assertEquals(expected,actual);
+
+    }
 }
