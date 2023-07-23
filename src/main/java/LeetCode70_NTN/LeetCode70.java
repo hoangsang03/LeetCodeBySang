@@ -54,7 +54,7 @@ public class LeetCode70 {
      * @param n
      * @return
      */
-    public int climbStairsDQ(int n) {
+    public int climbStairs1(int n) {
         int i = 3;
         int result = 0;
         int n1 = 1;
@@ -64,9 +64,9 @@ public class LeetCode70 {
         }else if(n == 2){
             return 2;
         }
-        return climbStairsDQHelp(n,n1,n2, i, result);
+        return climbStairs1Help(n,n1,n2, i, result);
     }
-    public int climbStairsDQHelp(int n,int n1, int n2,int i,int result) {
+    public int climbStairs1Help(int n,int n1, int n2,int i,int result) {
 
         if(i > n){
             return result;
@@ -74,7 +74,7 @@ public class LeetCode70 {
             result = n1 + n2;
             n1 = n2;
             n2 = result;
-            return climbStairsDQHelp(n,n1,n2,i += 1,result);
+            return climbStairs1Help(n,n1,n2,i += 1,result);
         }
     }
 }
