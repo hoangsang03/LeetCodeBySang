@@ -35,6 +35,18 @@ public class LeetCode1 {
      * <br>valid answer exists.
      */
     public int[] twoSum(int[] nums, int target) {
+        HashMap<Integer, Integer> container = new HashMap<>();
+        for (int i = 0; i < nums.length; i++) {
+            if(container.containsKey(target - nums[i])) {
+                return new int[] {container.get(target - nums[i]),i};
+            }else {
+                container.put(nums[i], i);
+            }
+        }
+        return null;
+    }
+    //Y tuong khac
+    public int[] twoSum1(int[] nums, int target) {
         for (int i = 0; i < nums.length; i++) {
             for (int j = 0; j < nums.length; j++) {
                 if(i != j) {
@@ -47,16 +59,5 @@ public class LeetCode1 {
 
         return null;
     }
-    //Y tuong su dung hashMap()
-    public int[] twoSumHM(int[] nums, int target) {
-        HashMap<Integer, Integer> container = new HashMap<>();
-        for (int i = 0; i < nums.length; i++) {
-            if(container.containsKey(target - nums[i])) {
-                return new int[] {container.get(target - nums[i]),i};
-            }else {
-                container.put(nums[i], i);
-            }
-        }
-        return null;
-    }
+
 }
