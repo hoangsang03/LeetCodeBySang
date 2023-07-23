@@ -43,7 +43,10 @@ public class LeetCode3 {
         if(s.isEmpty()) {
             return result;
 
-        }else {
+        }else if(s.length() == 1) {
+            return 1;
+        }
+        else {
             if(s.equals(" ")) {
                 return 1;
             }

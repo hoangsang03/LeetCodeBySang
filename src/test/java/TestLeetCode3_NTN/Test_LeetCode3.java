@@ -16,6 +16,15 @@ public class Test_LeetCode3 {
         System.out.println(obj.Big0);
     }
     @Test
+    public void testlengthOfLongestSubstring0() {
+        String s = "c";
+        int actual = obj.lengthOfLongestSubstring(s); // 2
+        int expected = 1s;
+        assertEquals(expected,actual );
+        System.out.println(obj.Big0);
+        System.out.println(s.length());
+    }
+    @Test
     public void testlengthOfLongestSubstring1() {
         int actual = obj.lengthOfLongestSubstring(""); // 2
         int expected = 0;
