@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2b7941c-3267-4183-9281-097468c49cd3" name="Changes" comment="Updating New Solutions for LeetCode's Problems">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TestLeetCode1_NTN/LeetCode1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestLeetCode1_NTN/LeetCode1.java" afterDir="false" />
-    </list>
+    <list default="true" id="f2b7941c-3267-4183-9281-097468c49cd3" name="Changes" comment="Updating New Solutions for LeetCode's Problems" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
