@@ -1,7 +1,5 @@
-package LeetCode3_NTN;
+package LeetCode_NTN;
 import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
 import java.util.List;
 
 /**
@@ -45,11 +43,7 @@ public class LeetCode3 {
 
         }else if(s.length() == 1) {
             return 1;
-        }
-        else {
-            if(s.equals(" ")) {
-                return 1;
-            }
+        } else {
             for (int i = 0; i < s.length() - 1; i++) {
                 Big0++;
                 for (int j = i; j < s.length(); j++) {
@@ -69,13 +63,7 @@ public class LeetCode3 {
                     }
                 }
             }
-            Collections.sort(containerCount, new Comparator<Integer>() {
-                @Override
-                public int compare(Integer o1, Integer o2) {
-
-                    return o2 - o1;
-                }
-            });
+            containerCount.sort((o1,o2) -> o2 - o1);
 
             result = containerCount.get(0);
         }

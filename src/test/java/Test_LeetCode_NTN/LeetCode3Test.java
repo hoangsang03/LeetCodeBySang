@@ -1,11 +1,10 @@
-package TestLeetCode3_NTN;
-import LeetCode3_NTN.LeetCode3;
-import junit.framework.TestCase;
+package Test_LeetCode_NTN;
+import LeetCode_NTN.LeetCode3;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class Test_LeetCode3 {
+public class LeetCode3Test {
     LeetCode3 obj = new LeetCode3();
 
     @Test
@@ -19,7 +18,7 @@ public class Test_LeetCode3 {
     public void testlengthOfLongestSubstring0() {
         String s = "c";
         int actual = obj.lengthOfLongestSubstring(s); // 2
-        int expected = 1s;
+        int expected = 1;
         assertEquals(expected,actual );
         System.out.println(obj.Big0);
         System.out.println(s.length());
