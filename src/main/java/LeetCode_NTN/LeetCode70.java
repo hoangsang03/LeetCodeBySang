@@ -1,4 +1,4 @@
-package LeetCode70_NTN;
+package LeetCode_NTN;
 
 /**
  * Title: Climbing stairs
