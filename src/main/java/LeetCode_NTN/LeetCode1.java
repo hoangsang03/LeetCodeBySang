@@ -1,4 +1,4 @@
-package LeetCode1_NTN;
+package LeetCode_NTN;
 
 import java.util.HashMap;
 

@@ -1,9 +1,10 @@
-package LeetCode1_NTN;
+package Test_LeetCode_NTN;
+import LeetCode_NTN.LeetCode1;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
-public class TestLeetCode1 {
+public class LeetCode1Test {
     LeetCode1 obj = new LeetCode1();
 
     @Test
