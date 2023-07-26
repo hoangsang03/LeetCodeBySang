@@ -60,7 +60,8 @@
     &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.haulmont.jpb.projectionDeclaration&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.haulmont.jpb.projectionDeclaration&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -72,97 +73,97 @@
       <recent name="Test_Top_Interview_Questions" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.NABCODETest.testSolution_3">
-    <configuration name="Lesson2CyclicRotationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Test_LeetCode3.testlengthOfLongestSubstring0">
+    <configuration name="Test_LeetCode3.testlengthOfLongestSubstring" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCodeBySang" />
       <selectedOptions>
         <option name="coverage.runner" />
       </selectedOptions>
       <extension name="coverage" sample_coverage="false" track_test_folders="true">
         <pattern>
-          <option name="PATTERN" value="Codility.*" />
+          <option name="PATTERN" value="TestLeetCode3_NTN.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Codility" />
-      <option name="MAIN_CLASS_NAME" value="Codility.Lesson2CyclicRotationTest" />
-      <option name="METHOD_NAME" value="testSolution_1" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NABCODETest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCodeBySang" />
-      <selectedOptions>
-        <option name="coverage.runner" />
-      </selectedOptions>
-      <extension name="coverage" sample_coverage="false" track_test_folders="true">
-        <pattern>
-          <option name="PATTERN" value="Codility.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Codility" />
-      <option name="MAIN_CLASS_NAME" value="Codility.NABCODETest" />
-      <option name="METHOD_NAME" value="testSolution" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NABCODETest.testSolution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCodeBySang" />
-      <selectedOptions>
-        <option name="coverage.runner" />
-      </selectedOptions>
-      <extension name="coverage" sample_coverage="false" track_test_folders="true">
-        <pattern>
-          <option name="PATTERN" value="Codility.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Codility" />
-      <option name="MAIN_CLASS_NAME" value="Codility.NABCODETest" />
-      <option name="METHOD_NAME" value="testSolution" />
+      <option name="PACKAGE_NAME" value="TestLeetCode3_NTN" />
+      <option name="MAIN_CLASS_NAME" value="TestLeetCode3_NTN.Test_LeetCode3" />
+      <option name="METHOD_NAME" value="testlengthOfLongestSubstring" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NABCODETest.testSolution_2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_LeetCode3.testlengthOfLongestSubstring0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCodeBySang" />
       <selectedOptions>
         <option name="coverage.runner" />
       </selectedOptions>
       <extension name="coverage" sample_coverage="false" track_test_folders="true">
         <pattern>
-          <option name="PATTERN" value="Codility.*" />
+          <option name="PATTERN" value="TestLeetCode3_NTN.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Codility" />
-      <option name="MAIN_CLASS_NAME" value="Codility.NABCODETest" />
-      <option name="METHOD_NAME" value="testSolution_2" />
+      <option name="PACKAGE_NAME" value="TestLeetCode3_NTN" />
+      <option name="MAIN_CLASS_NAME" value="TestLeetCode3_NTN.Test_LeetCode3" />
+      <option name="METHOD_NAME" value="testlengthOfLongestSubstring0" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NABCODETest.testSolution_3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_LeetCode3.testlengthOfLongestSubstring2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCodeBySang" />
       <selectedOptions>
         <option name="coverage.runner" />
       </selectedOptions>
       <extension name="coverage" sample_coverage="false" track_test_folders="true">
         <pattern>
-          <option name="PATTERN" value="Codility.*" />
+          <option name="PATTERN" value="TestLeetCode3_NTN.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Codility" />
-      <option name="MAIN_CLASS_NAME" value="Codility.NABCODETest" />
-      <option name="METHOD_NAME" value="testSolution_3" />
+      <option name="PACKAGE_NAME" value="TestLeetCode3_NTN" />
+      <option name="MAIN_CLASS_NAME" value="TestLeetCode3_NTN.Test_LeetCode3" />
+      <option name="METHOD_NAME" value="testlengthOfLongestSubstring2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test_LeetCode3.testlengthOfLongestSubstring3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCodeBySang" />
+      <selectedOptions>
+        <option name="coverage.runner" />
+      </selectedOptions>
+      <extension name="coverage" sample_coverage="false" track_test_folders="true">
+        <pattern>
+          <option name="PATTERN" value="TestLeetCode3_NTN.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestLeetCode3_NTN" />
+      <option name="MAIN_CLASS_NAME" value="TestLeetCode3_NTN.Test_LeetCode3" />
+      <option name="METHOD_NAME" value="testlengthOfLongestSubstring3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test_LeetCode3.testlengthOfLongestSubstring4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCodeBySang" />
+      <selectedOptions>
+        <option name="coverage.runner" />
+      </selectedOptions>
+      <extension name="coverage" sample_coverage="false" track_test_folders="true">
+        <pattern>
+          <option name="PATTERN" value="TestLeetCode3_NTN.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestLeetCode3_NTN" />
+      <option name="MAIN_CLASS_NAME" value="TestLeetCode3_NTN.Test_LeetCode3" />
+      <option name="METHOD_NAME" value="testlengthOfLongestSubstring4" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -181,19 +182,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.NABCODETest" />
-      <item itemvalue="JUnit.NABCODETest.testSolution" />
-      <item itemvalue="JUnit.NABCODETest.testSolution_2" />
-      <item itemvalue="JUnit.NABCODETest.testSolution_3" />
-      <item itemvalue="JUnit.Lesson2CyclicRotationTest" />
+      <item itemvalue="JUnit.Test_LeetCode3.testlengthOfLongestSubstring0" />
+      <item itemvalue="JUnit.Test_LeetCode3.testlengthOfLongestSubstring3" />
+      <item itemvalue="JUnit.Test_LeetCode3.testlengthOfLongestSubstring4" />
+      <item itemvalue="JUnit.Test_LeetCode3.testlengthOfLongestSubstring" />
+      <item itemvalue="JUnit.Test_LeetCode3.testlengthOfLongestSubstring2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.NABCODETest.testSolution_3" />
-        <item itemvalue="JUnit.NABCODETest" />
-        <item itemvalue="JUnit.NABCODETest.testSolution" />
-        <item itemvalue="JUnit.NABCODETest.testSolution_2" />
-        <item itemvalue="JUnit.Lesson2CyclicRotationTest" />
+        <item itemvalue="JUnit.Test_LeetCode3.testlengthOfLongestSubstring0" />
+        <item itemvalue="JUnit.Test_LeetCode3.testlengthOfLongestSubstring4" />
+        <item itemvalue="JUnit.Test_LeetCode3.testlengthOfLongestSubstring" />
+        <item itemvalue="JUnit.Test_LeetCode3.testlengthOfLongestSubstring2" />
+        <item itemvalue="JUnit.Test_LeetCode3.testlengthOfLongestSubstring3" />
       </list>
     </recent_temporary>
   </component>
@@ -236,6 +237,7 @@
       <workItem from="1687008260088" duration="5583000" />
       <workItem from="1687052107027" duration="11121000" />
       <workItem from="1687071599307" duration="1336000" />
+      <workItem from="1689774150439" duration="2484000" />
     </task>
     <task id="LOCAL-00001" summary="Move code from Eclipse to InteliJ">
       <created>1661789765515</created>
@@ -337,6 +339,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/Codility/NABCODE.java</url>
           <line>12</line>
           <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/LeetCode70_NTN/LeetCode70.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="62" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/Test_Top_Interview_Questions/TestLeetCode10.java</url>
