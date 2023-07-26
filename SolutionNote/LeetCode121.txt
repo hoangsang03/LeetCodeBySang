@@ -1,0 +1,21 @@
+You are given an array prices where prices[i] is the price of a given stock on the ith day.
+
+You want to maximize your profit by choosing a single day to buy one stock and choosing a different day
+in the future to sell that stock.
+Return the maximum profit you can achieve from this transaction.
+If you cannot achieve any profit, return 0.
+
+nums = {A0,A1,A2,A3,A4 ... An}
+
+=> find max profit = max :   max = Aj - Ai ,  j > i , 0 <= i,j < n
+and Am and Ap , m > p =>    Am - Ap <= max
+
+max = Aj - Ai  => find Ai sao cho Ai =  min(nums)
+=> find Aj sao cho Aj = max(nums) , j > i
+
+
+
+prices = [7,1,5,3,6,4] => [7,4,5,3,6,1] =>
+          0,1,2,3,4,5
+Aj = A4 , Ai = A1   => max = A4 - A1 = 6 - 1 = 5
+Am = A5 , Ap = A1   => Am - Ap = A5 - A1 = 4 - 1 = 3    <= max (true)
