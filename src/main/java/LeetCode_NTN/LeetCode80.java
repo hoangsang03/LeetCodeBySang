@@ -1,8 +1,6 @@
 package LeetCode_NTN;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 
 /**
  * Title: 80. Remove Duplicates from Sorted Array II <br>
@@ -44,15 +42,13 @@ public class LeetCode80 {
         int indexNums = 0;
         for (int i = 0; i < nums.length; i += indexValue) {
             indexValue = count(i, nums[i], nums);
+            nums[indexNums] = nums[i];
+            indexNums++;
             if (indexValue >= 2) {
-                nums[indexNums] = nums[i];
-                indexNums++;
                 nums[indexNums] = nums[i];
                 indexNums++;
                 count += 2;
             } else {
-                nums[indexNums] = nums[i];
-                indexNums++;
                 count++;
             }
         }
@@ -101,7 +97,7 @@ public class LeetCode80 {
 
     /**
      * requirement: count number of value that occurs more than 2 times <br>
-     * trans:  dem so luong phan tu ma no duoc lap lai nhieu hon 2 lan trong mang
+     * trans:  dem so luong phan tu no duoc lap lai nhieu hon 2 lan trong mang
      * assignee : NTN
      *
      * @param nums EX: int[] nums = {0,0,0,1,1,2,2,3,3,3} => return 2

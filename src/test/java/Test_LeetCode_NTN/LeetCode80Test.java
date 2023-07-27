@@ -12,16 +12,11 @@ public class LeetCode80Test {
     LeetCode80 obj = new LeetCode80();
 
     /**
-     * 1 <= nums.length <= 3 * 10^4 <br>
-     * -10^4 <= nums[i] <= 10^4
-     */
-
-    /**
      * Test method removeDuplicates
      */
     @Test
     public void testremoveDuplicates() {
-        int[] nums = {0,0,0,1,1,2,2,3,3,3};
+        int[] nums = {0,0,0,1,1,2,2,3,3,3,3};
         int actual = obj.removeDuplicates(nums);
         int expected = 8;
         assertEquals(expected,actual);
@@ -31,10 +26,7 @@ public class LeetCode80Test {
      */
     @Test
     public void testcountNumberRemainingValue() {
-        int[] nums = {0, 0, 0, 1, 1, 2, 2, 3, 3, 3}; // => length * 4 => 40 ; 3 * 10^4 * 10^4 => 3*10^8
-//        assertEquals(8,obj.countNumberRemainingValue(nums));
-//        System.out.println("nums.size : " + nums.length);
-//        System.out.println("number calling for " + obj.bigO);
+        int[] nums; // => length * 4 => 40 ; 3 * 10^4 * 10^4 => 3*10^8
 
         nums = new int[]{0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
         assertEquals(10, obj.countNumberRemainingValue(nums));
@@ -50,11 +42,6 @@ public class LeetCode80Test {
         assertEquals(8, obj.countNumberRemainingValue_Sang(nums));
         System.out.println("nums.size : " + nums.length);
         System.out.println("number calling for " + obj.bigO);
-
-//        nums = new int[]{0,1,2,3,4,5,6,7,8,9};
-//        assertEquals(10,obj.countNumberRemainingValue(nums));
-//        System.out.println("nums.size : " + nums.length);
-//        System.out.println("number calling for " + obj.bigO);
 
     }
 
