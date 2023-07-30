@@ -19,11 +19,11 @@ public class LeetCode167 {
      * <br>Example 2:
      * <br>Input: numbers = [2,3,4], target = 6
      * <br>Output: [1,3]
-     * <br>Explanation: The sum of 2 and 4 is 6. Therefore index1 = 1, index2 = 3. We return [1, 3].
+     * <br>Explanation: The sum of 2 and 4 is 6. Thereforeindex1 = 1, index2 = 3. We return [1, 3].
      * <br>Example 3:
      * <br>Input: numbers = [-1,0], target = -1
      * <br>Output: [1,2]
-     * <br>Explanation: The sum of -1 and 0 is -1. Therefore index1 = 1, index2 = 2. We return [1, 2].
+     * <br>Explanation: The sum of -1 and 0 is -1.Thereforeindex1 = 1, index2 = 2. We return [1, 2].
      * <br>Constraints:
      * <br>2 <= numbers.length <= 3 * 104
      * <br>-1000 <= numbers[i] <= 1000
@@ -32,8 +32,8 @@ public class LeetCode167 {
      * <br>The tests are generated such that there is exactly one solution.
      */
     public int[] twoSum(int[] numbers, int target) {
-        int index1 = -1;
-        int index2 = -1;
+        int index1 ;
+        int index2 ;
         int[] result = new int[2];
         for (int i = 0; i < numbers.length - 1; i++) {
             for (int j = i + 1; j < numbers.length ; j++) {
