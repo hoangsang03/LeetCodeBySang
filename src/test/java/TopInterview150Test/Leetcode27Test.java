@@ -21,7 +21,7 @@ class Leetcode27Test {
         int[] num = {3,5,6,1,2,6,7};
         int value = 6;
         int k = obj.removeElement(num,value);
-        int[] expectedArr = {3,5,7,1,2,6,7};
+        int[] expectedArr = {3,5,1,2,7,6,7};
         int expected = num.length - 2;
 
         assertEquals(expected,k);
@@ -54,7 +54,7 @@ class Leetcode27Test {
         int[] num = {6,6,1,6,6,6,6,5,6,6,6,6,6,6};
         int value = 6;
         int k = obj.removeElement(num,value);
-        int[] expectedArr = {5,1,1,6,6,6,6,5,6,6,6,6,6,6};
+        int[] expectedArr = {1,5,1,6,6,6,6,5,6,6,6,6,6,6};
         int expected = 2;
 
         assertEquals(expected,k);
