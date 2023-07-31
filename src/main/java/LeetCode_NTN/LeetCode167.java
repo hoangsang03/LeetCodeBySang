@@ -48,4 +48,19 @@ public class LeetCode167 {
         }
         return null;
      }
+     //Ý tưởng a Sang
+    public int[] twoSum1(int[] numbers, int target) {
+        int left = 0;
+        int right = numbers.length - 1;
+        while (left < right) {
+            if(numbers[left] + numbers[right] > target) {
+                right--;
+            }else if(numbers[left] + numbers[right] < target) {
+                left++;
+            }else {
+                return new int[]{left + 1 , right + 1};
+            }
+        }
+        return null;
+    }
 }
