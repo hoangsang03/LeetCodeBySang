@@ -74,21 +74,4 @@ class Leetcode189Test {
         obj.rotate(nums,k);
         assertArrayEquals(expected,nums);
     }
-
-    @Test
-    public void Given_TwoNumbers_FindGreatestCommonDivisor(){
-        int num1 = 10;
-        int num2 = 45;
-        int actual = obj.findGreatestCommonDivisor(num1,num2);
-        int expected = 5;
-        assertEquals(expected,actual);
-    }
-    @Test
-    public void Given_TwoBigNumbers_FindGreatestCommonDivisor(){
-        int num1 = 100000;
-        int num2 = 5449;
-        int actual = obj.findGreatestCommonDivisor(num1,num2);
-        int expected = 1;
-        assertEquals(expected,actual);
-    }
 }

@@ -11,33 +11,41 @@ public class Leetcode189 {
         int rounds;
         // get k'value is same meaning with k by getting remainder when devide to nums.length
         k = k % nums.length;
-        if(k == 0){
-            return;
+        int lcm = (nums.length*k)/findGreatestCommonDivisor(nums.length,k);
+        if (k == 0) {
+            rounds = 0;
+        } else if (lcm != k*nums.length) {
+            rounds = nums.length/(lcm/k);
+        } else {
+            rounds = 1;
         }
-        rounds = findGreatestCommonDivisor(nums.length,k);
 
+        int indexAfterRotating;
         int newValue;
+        int numReplacement;
 
         int waitingValue;
 
         for (int i = 0; i < rounds; i++) {
+            numReplacement = 0;
             waitingValue = nums[i];
             for (int j = 0; j < nums.length/rounds; j++) {
                 // count time of replacing
+                numReplacement++;
                 // get value that will move
                 newValue = waitingValue;
                 // find destination position
-                i = (i + k) % nums.length;
+                indexAfterRotating = (i + numReplacement * k) % nums.length;
                 // save current value before replacing
-                waitingValue = nums[i];
+                waitingValue = nums[indexAfterRotating];
                 // put value to destination
-                nums[i] = newValue;
+                nums[indexAfterRotating] = newValue;
             }
         }
 
     }
 
-    public int findGreatestCommonDivisor(int n, int k) {
+    private int findGreatestCommonDivisor(int n, int k) {
         // n > k
         while (k != 0 && n != 0){
             if(n > k){
